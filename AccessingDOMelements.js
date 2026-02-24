@@ -6,9 +6,9 @@
 
 // === The process of going through the heirarchy to access before using any element is called DOM Transversing.
 
-// ================================================================
+// ==================================================================
 
-// ======= Accessing DOM Elements =======
+// ===================== Accessing DOM Elements =====================
 
 // === document.getElementById()
 
@@ -53,39 +53,5 @@
 // const elm = document.querySelectorAll("div"); // tag selector
 
 // console.log(elm);
-
-// ================================================================
-
-// ======= Changing HTML Elements =======
-
-// === document.write()
-
-// document.write("Adding more contents!");
-
-// console.log(val);
-
-// ================================================================
-
-// === .innerHTML
-
-// const elm = document.querySelector(".info");
-// const value = elm.innerHTML;
-
-// const elm = document.querySelector(".message");
-// elm.innerHTML = "<h1>Just updating contents!</h1>";
-
-// console.log(value);
-
-// ================================================================
-
-// === .innerText
-
-// const elm = document.querySelector(".info");
-// const value = elm.innerText;
-
-// const elm = document.querySelector(".message");
-// elm.innerText = "Just updating contents!";
-
-// console.log(value);
 
 // ================================================================
