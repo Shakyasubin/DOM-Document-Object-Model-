@@ -13,6 +13,7 @@
 // === document.getElementById()
 
 // const elm = document.getElementById("first");
+
 // console.log(elm);
 
 // ================================================================
@@ -21,7 +22,7 @@
 
 // const elm = document.getElementsByTagName("div");
 
-// console.log(elm);
+// // console.log(elm);
 // console.log(elm[1]);
 
 // ================================================================
@@ -30,8 +31,8 @@
 
 // const elm = document.getElementsByClassName("info");
 
-// console.log(elm);
-// console.log(elm[0]);
+// // console.log(elm);
+// console.log(elm[1]);
 
 // ================================================================
 
@@ -39,8 +40,8 @@
 
 // const elm = document.querySelector(".first"); // class selector
 // const elm = document.querySelector("#first"); // id selector
-// const elm = document.querySelector("div"); // tag selector
-// const elm = document.querySelector(".info > div p");
+// const elm = document.querySelector("div"); // id selector
+// const elm = document.querySelector(".info > div p"); // child selector
 
 // console.log(elm);
 
@@ -51,6 +52,7 @@
 // const elm = document.querySelectorAll(".info"); // class selector
 // const elm = document.querySelectorAll("#first"); // id selector
 // const elm = document.querySelectorAll("div"); // tag selector
+// const elm = document.querySelectorAll("[href='google.com]"); // attribute selector
 
 // console.log(elm);
 
